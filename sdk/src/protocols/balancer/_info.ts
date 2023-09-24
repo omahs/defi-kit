@@ -1528,6 +1528,25 @@ export default [
     ],
   },
   {
+    bpt: "0x6228f64D5BA8376652Bfe7E36569D595347cF6Fb",
+    id: "0x6228f64d5ba8376652bfe7e36569d595347cf6fb0002000000000000000005df",
+    name: "80T-20TBTC",
+    type: "Weighted",
+    gauge: null,
+    tokens: [
+      {
+        address: "0x18084fbA666a33d37592fA2633fD49a74DD93a88",
+        symbol: "tBTC",
+        id: "0x",
+      },
+      {
+        address: "0xCdF7028ceAB81fA0C6971208e83fa7872994beE5",
+        symbol: "T",
+        id: "0x",
+      },
+    ],
+  },
+  {
     bpt: "0x67b532d47A31CE1eD0800E6913dbf5F6e9C48a18",
     id: "0x67b532d47a31ce1ed0800e6913dbf5f6e9c48a180002000000000000000000c5",
     name: "\u2697\ufe0f_WEIGHTED",
@@ -1709,55 +1728,6 @@ export default [
       {
         address: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
         symbol: "WETH",
-        id: "0x",
-      },
-    ],
-  },
-  {
-    bpt: "0x760AfD4460089EDbb77F71149f6Fe1d7554C5450",
-    id: "0x760afd4460089edbb77f71149f6fe1d7554c545000010000000000000000011d",
-    name: "13CVC-13PNT-13DATA-13OCEAN-13POLY-13USDC-13WETH-13ENJ",
-    type: "Weighted",
-    gauge: null,
-    tokens: [
-      {
-        address: "0x41e5560054824eA6B0732E656E3Ad64E20e94E45",
-        symbol: "CVC",
-        id: "0x",
-      },
-      {
-        address: "0x89Ab32156e46F46D02ade3FEcbe5Fc4243B9AAeD",
-        symbol: "PNT",
-        id: "0x",
-      },
-      {
-        address: "0x8f693ca8D21b157107184d29D398A8D082b38b76",
-        symbol: "DATA",
-        id: "0x",
-      },
-      {
-        address: "0x967da4048cD07aB37855c090aAF366e4ce1b9F48",
-        symbol: "OCEAN",
-        id: "0x",
-      },
-      {
-        address: "0x9992eC3cF6A55b00978cdDF2b27BC6882d88D1eC",
-        symbol: "POLY",
-        id: "0x",
-      },
-      {
-        address: "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
-        symbol: "USDC",
-        id: "0x",
-      },
-      {
-        address: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        symbol: "WETH",
-        id: "0x",
-      },
-      {
-        address: "0xF629cBd94d3791C9250152BD8dfBDF380E2a3B9c",
-        symbol: "ENJ",
         id: "0x",
       },
     ],
@@ -1953,6 +1923,30 @@ export default [
       {
         address: "0xCdF7028ceAB81fA0C6971208e83fa7872994beE5",
         symbol: "T",
+        id: "0x",
+      },
+    ],
+  },
+  {
+    bpt: "0x8353157092ED8Be69a9DF8F95af097bbF33Cb2aF",
+    id: "0x8353157092ed8be69a9df8f95af097bbf33cb2af0000000000000000000005d9",
+    name: "GHO/USDT/USDC",
+    type: "ComposableStable",
+    gauge: null,
+    tokens: [
+      {
+        address: "0x40D16FC0246aD3160Ccc09B8D0D3A2cD28aE6C2f",
+        symbol: "GHO",
+        id: "0x",
+      },
+      {
+        address: "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+        symbol: "USDC",
+        id: "0x",
+      },
+      {
+        address: "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+        symbol: "USDT",
         id: "0x",
       },
     ],
@@ -3078,25 +3072,6 @@ export default [
     ],
   },
   {
-    bpt: "0xC9C5Ff67bB2Fae526aE2467C359609D6BCb4c532",
-    id: "0xc9c5ff67bb2fae526ae2467c359609d6bcb4c5320000000000000000000003cc",
-    name: "qETH-BPT",
-    type: "ComposableStable",
-    gauge: null,
-    tokens: [
-      {
-        address: "0x93ef1Ea305D11A9b2a3EbB9bB4FCc34695292E7d",
-        symbol: "qETH",
-        id: "0x",
-      },
-      {
-        address: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        symbol: "WETH",
-        id: "0x",
-      },
-    ],
-  },
-  {
     bpt: "0xCB0e14e96f2cEFA8550ad8e4aeA344F211E5061d",
     id: "0xcb0e14e96f2cefa8550ad8e4aea344f211e5061d00020000000000000000011a",
     name: "20WETH-80PSP",
@@ -3350,25 +3325,6 @@ export default [
       {
         address: "0xEA47B64e1BFCCb773A0420247C0aa0a3C1D2E5C5",
         symbol: "BAYC",
-        id: "0x",
-      },
-    ],
-  },
-  {
-    bpt: "0xD9Fb1aE180Fbf88F28f14a04842bD17BCEb69fEf",
-    id: "0xd9fb1ae180fbf88f28f14a04842bd17bceb69fef000200000000000000000316",
-    name: "80SLR-20WETH",
-    type: "Weighted",
-    gauge: null,
-    tokens: [
-      {
-        address: "0x4E9e4Ab99Cfc14B852f552f5Fb3Aa68617825B6c",
-        symbol: "SLR",
-        id: "0x",
-      },
-      {
-        address: "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
-        symbol: "WETH",
         id: "0x",
       },
     ],
